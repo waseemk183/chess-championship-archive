@@ -1,0 +1,184 @@
+Independent historical PGN comparison
+The Mark Weeks archive and the imported data were compared by result and the first 20 half-moves, with basic notation normalization. A difference can reflect alternative notation, transposition, round numbering, or a different score. These are leads for manual reconciliation, rather than confirmed errors.
+COLUMNS: edition, imported entries, reference entries, opening-and-result matches, unmatched imported move entries, unmatched reference move entries.
+REF and PGN lines identify the respective source, round, players, result and first four half-moves.
+2023 and 2024 were compared at the match-result level with FIDE, the 2023 playoff table and The Week in Chess.
+
+1948 50 50 46 4 4
+REF 1948 07 Euwe M Botvinnik M 1/2-1/2 ('e4', 'e6', 'd4', 'd5')
+REF 1948 08 Keres P Reshevsky S 1/2-1/2 ('e4', 'e5', 'Nf3', 'Nc6')
+REF 1948 11 Smyslov V Reshevsky S 1-0 ('e4', 'e5', 'Nf3', 'Nc6')
+REF 1948 21 Euwe M Keres P 0-1 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1948 11 Smyslov, Vassily Reshevsky, Samuel Herman 1-0 ('e4', 'e5', 'Nf3', 'Nc6')
+PGN 1948 7 Euwe, Max Botvinnik, Mikhail 1/2-1/2 ('e4', 'e6', 'd4', 'd5')
+PGN 1948 8 Keres, Paul Reshevsky, Samuel Herman 1/2-1/2 ('e4', 'e5', 'Nf3', 'Nc6')
+PGN 1948 21 Euwe, Max Keres, Paul 0-1 ('d4', 'Nf6', 'c4', 'e6')
+1951 24 24 21 3 3
+REF 1951 10 Bronstein D Botvinnik M 1/2-1/2 ('d4', 'e6', 'c4', 'f5')
+REF 1951 13 Botvinnik M Bronstein D 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+REF 1951 17 Botvinnik M Bronstein D 0-1 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1951 10 Bronstein, David I Botvinnik, Mikhail 1/2-1/2 ('d4', 'e6', 'c4', 'f5')
+PGN 1951 13 Botvinnik, Mikhail Bronstein, David I 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1951 17 Botvinnik, Mikhail Bronstein, David I 0-1 ('d4', 'Nf6', 'c4', 'e6')
+1954 24 24 23 1 1
+REF 1954 02 Botvinnik M Smyslov V 1-0 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1954 2 Botvinnik, Mikhail Smyslov, Vassily 1-0 ('d4', 'Nf6', 'c4', 'e6')
+1957 22 22 19 3 3
+REF 1957 07 Botvinnik M Smyslov V 1/2-1/2 ('c4', 'Nf6', 'Nc3', 'e6')
+REF 1957 13 Botvinnik M Smyslov V 1-0 ('c4', 'Nf6', 'Nc3', 'e6')
+REF 1957 15 Botvinnik M Smyslov V 1/2-1/2 ('c4', 'Nf6', 'Nc3', 'e6')
+PGN 1957 7 Botvinnik, Mikhail Smyslov, Vassily 1/2-1/2 ('c4', 'Nf6', 'Nc3', 'e6')
+PGN 1957 13 Botvinnik, Mikhail Smyslov, Vassily 1-0 ('c4', 'Nf6', 'Nc3', 'e6')
+PGN 1957 15 Botvinnik, Mikhail Smyslov, Vassily 1/2-1/2 ('c4', 'Nf6', 'Nc3', 'e6')
+1958 23 23 23 0 0
+1960 21 21 21 0 0
+1961 21 21 21 0 0
+1963 22 22 22 0 0
+1966 24 24 24 0 0
+1969 23 23 22 1 1
+REF 1969 10 Petrosian T Spassky B 1-0 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1969 10 Petrosian, Tigran V Spassky, Boris V 1-0 ('d4', 'Nf6', 'c4', 'e6')
+1972 21 21 20 0 0
+1978 32 32 29 3 3
+REF 1978 03 Korchnoi V Karpov A 1/2-1/2 ('c4', 'Nf6', 'd4', 'e6')
+REF 1978 05 Korchnoi V Karpov A 1/2-1/2 ('c4', 'Nf6', 'd4', 'e6')
+REF 1978 17 Korchnoi V Karpov A 0-1 ('c4', 'Nf6', 'Nc3', 'e6')
+PGN 1978 3 Kortschnoj, Viktor Karpov, Anatoly 1/2-1/2 ('c4', 'Nf6', 'd4', 'e6')
+PGN 1978 5 Kortschnoj, Viktor Karpov, Anatoly 1/2-1/2 ('c4', 'Nf6', 'd4', 'e6')
+PGN 1978 17 Kortschnoj, Viktor Karpov, Anatoly 0-1 ('c4', 'Nf6', 'Nc3', 'e6')
+1981 18 18 17 1 0
+PGN 1981 7 Kortschnoj, Viktor Karpov, Anatoly 1-0 ('c4', 'e6', 'Nc3', 'd5')
+1984 48 48 48 0 0
+1985 24 24 24 0 0
+1986 24 24 24 0 0
+1987 24 24 20 4 4
+REF 1987 02 Kasparov G Karpov A 0-1 ('c4', 'Nf6', 'Nc3', 'e5')
+REF 1987 10 Kasparov G Karpov A 1/2-1/2 ('e4', 'c6', 'd4', 'd5')
+REF 1987 14 Kasparov G Karpov A 1/2-1/2 ('e4', 'c6', 'd4', 'd5')
+REF 1987 22 Kasparov G Karpov A 1/2-1/2 ('c4', 'e6', 'Nc3', 'd5')
+PGN 1987 2 Kasparov, Gary Karpov, Anatoly 0-1 ('c4', 'e5', 'Nc3', 'Nf6')
+PGN 1987 10 Kasparov, Gary Karpov, Anatoly 1/2-1/2 ('e4', 'c6', 'd4', 'd5')
+PGN 1987 14 Kasparov, Gary Karpov, Anatoly 1/2-1/2 ('e4', 'c6', 'd4', 'd5')
+PGN 1987 22 Kasparov, Gary Karpov, Anatoly 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+1990 24 24 23 1 1
+REF 1990 05 Karpov A Kasparov G 1/2-1/2 ('d4', 'Nf6', 'c4', 'g6')
+PGN 1990 5 Karpov, Anatoly Kasparov, Gary 1/2-1/2 ('d4', 'Nf6', 'c4', 'g6')
+1993 21 21 20 1 1
+REF 1993 11 Timman J Karpov A 1/2-1/2 ('c4', 'Nf6', 'Nf3', 'e6')
+PGN 1993 11 Timman, Jan H Karpov, Anatoly 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+1996 18 18 16 2 2
+REF 1996 04 Kamsky G Karpov A 0-1 ('e4', 'c6', 'd4', 'd5')
+REF 1996 14 Kamsky G Karpov A 0-1 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1996 4 Kamsky, Gata Karpov, Anatoly 0-1 ('e4', 'c6', 'd4', 'd5')
+PGN 1996 14 Kamsky, Gata Karpov, Anatoly 0-1 ('d4', 'Nf6', 'c4', 'e6')
+1998 331 331 321 10 10
+REF 1998 3.2 Tkachiev,V Oll,L 1/2-1/2 ('e4', 'c5', 'Nf3', 'd6')
+REF 1998 2.2 Sokolov,An Istratescu,A 1-0 ('e4', 'c5', 'Nf3', 'd6')
+REF 1998 2.2 Akopian,V Luther,T 1-0 ('c4', 'c5', 'Nf3', 'Nf6')
+REF 1998 2.1 Aleksandrov,A Hjartarson,J 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+REF 1998 2.2 Giorgadze,G Adams,Mi 0-1 ('d4', 'Nf6', 'c4', 'e6')
+REF 1998 2.1 Sokolov,I Epishin,V 1-0 ('d4', 'Nf6', 'c4', 'e6')
+REF 1998 2.2 Lautier,J Hracek,Z 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+REF 1998 1.1 Alterman,B Wells,P 1-0 ('d4', 'Nf6', 'c4', 'e6')
+REF 1998 1.1 Giorgadze,G Bacrot,E 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+REF 1998 1.4 Giorgadze,G Bacrot,E 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1998 1.1 Alterman, Boris Wells, Peter K 1-0 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1998 1.1 Giorgadze, Giorgi Bacrot, Etienne 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1998 1.6 Giorgadze, Giorgi Bacrot, Etienne 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1998 2.1 Aleksandrov, Aleksej Hjartarson, Johann 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1998 2.1 Sokolov, Ivan Epishin, Vladimir 1-0 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1998 2.2 Lautier, Joel Hracek, Zbynek 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1998 2.2 Sokolov, Andrei Istratescu, Andrei 1-0 ('e4', 'c5', 'Nf3', 'd6')
+PGN 1998 2.2 Giorgadze, Giorgi Adams, Michael 0-1 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1998 3.2 Tkachiev, Vladislav Oll, Lembit 1/2-1/2 ('e4', 'c5', 'Nf3', 'd6')
+PGN 1998 2.2 Akopian, Vladimir Luther, Thomas 1-0 ('c4', 'c5', 'Nf3', 'Nf6')
+1999 310 310 302 4 4
+REF 1999 2.4 Shirov,A Sokolov,I 1-0 ('e4', 'e5', 'Nf3', 'Nc6')
+REF 1999 1.3 Babula,V Shaked,T 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+REF 1999 1.5 Barua,D Khalifman,A 1/2-1/2 ('e4', 'c5', 'Nf3', 'd6')
+REF 1999 1.2 Milov,V Macieja,B 1-0 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1999 1.2 Milov, Vadim Macieja, Bartlomiej 1-0 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1999 1.5 Barua, Dibyendu Khalifman, Alexander 1/2-1/2 ('e4', 'c5', 'Nf3', 'd6')
+PGN 1999 1.3 Babula, Vlastimil Shaked, Tal 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+PGN 1999 2.4 Shirov, Alexei Sokolov, Ivan 1-0 ('e4', 'e5', 'Nf3', 'Nc6')
+2000 346 345 335 11 11
+REF 2000 4.2 Adams,Mi Svidler,P 1/2-1/2 ('e4', 'c5', 'Nf3', 'd6')
+REF 2000 4.1 Morozevich,A Tkachiev,V 1/2-1/2 ('e4', 'd5', 'exd5', 'Qxd5')
+REF 2000 3.1 Bareev,E Aleksandrov,A 1-0 ('d4', 'Nf6', 'c4', 'e6')
+REF 2000 2.5 Macieja,B Krasenkow,M 0-1 ('e4', 'c5', 'Nf3', 'Nc6')
+REF 2000 2.10 Macieja,B Krasenkow,M 1-0 ('e4', 'c5', 'Nf3', 'Nc6')
+REF 2000 2.2 Aleksandrov,A Akopian,V 1-0 ('d4', 'Nf6', 'c4', 'e6')
+REF 2000 1.3 Volkov,S Sakaev,K 0-1 ('d4', 'Nf6', 'c4', 'e6')
+REF 2000 1.5 Volkov,S Sakaev,K 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+REF 2000 1.1 Lautier,J Leitao,R 0-1 ('d4', 'Nf6', 'c4', 'e6')
+REF 2000 1.2 Labib,I Nevednichy,V 0-1 ('e4', 'c5', 'Nf3', 'd6')
+REF 2000 5.3 Khalifman,A Anand,V 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+PGN 2000 1.1 Lautier,J Leitao,R 0-1 ('d4', 'Nf6', 'c4', 'e6')
+PGN 2000 1.2 Labib,I Nevednichy,V 0-1 ('e4', 'c5', 'Nf3', 'd6')
+PGN 2000 1.5 Volkov,S Sakaev,K 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+PGN 2000 1.3 Volkov,S Sakaev,K 0-1 ('d4', 'Nf6', 'c4', 'e6')
+PGN 2000 2.2 Aleksandrov,A Akopian,V 1-0 ('d4', 'Nf6', 'c4', 'e6')
+PGN 2000 2.5 Macieja,B Krasenkow,M 0-1 ('e4', 'c5', 'Nf3', 'Nc6')
+PGN 2000 2.10 Macieja,B Krasenkow,M 1-0 ('e4', 'c5', 'Nf3', 'Nc6')
+PGN 2000 3.1 Bareev,E Aleksandrov,A 1-0 ('d4', 'Nf6', 'c4', 'e6')
+PGN 2000 4.1 Morozevich,A Tkachiev,V 1/2-1/2 ('e4', 'd5', 'exd5', 'Qxd5')
+PGN 2000 4.2 Adams,Mi Svidler,P 1/2-1/2 ('e4', 'c5', 'Nf3', 'd6')
+PGN 2000 5.3 Khalifman,A Anand,V 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+2002 434 408 385 33 8
+REF 2002 4.1 Lautier,J Nikolic,Pr 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+REF 2002 1.2 Polgar,Ju Al Modiahki,M 1-0 ('e4', 'c5', 'Nf3', 'e6')
+REF 2002 1.7 Zapata,A Sutovsky,E 1/2-1/2 ('e4', 'c5', 'Nc3', 'e6')
+REF 2002 1.1 Delchev,A Timoshenko,G 1-0 ('d4', 'Nf6', 'c4', 'e6')
+REF 2002 1.2 Yermolinsky,A Milov,V 0-1 ('d4', 'Nf6', 'c4', 'g6')
+REF 2002 1.2 Ivanov,AV Pigusov,E 1/2-1/2 ('e4', 'c5', 'Nf3', 'Nc6')
+REF 2002 1.1 Sasikiran,K Eingorn,V 1/2-1/2 ('d4', 'e6', 'c4', 'Bb4')
+REF 2002 3.4 Adams,Mi Zvjaginsev,V 1-0 ('e4', 'c5', 'Nf3', 'd6')
+PGN 2002 4.1 Lautier,J Nikolic,Pr 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+PGN 2002 1.1 Sasikiran,K Eingorn,V 1/2-1/2 ('d4', 'e6', 'c4', 'Bb4')
+PGN 2002 1.1 Delchev,A Timoshenko,G 1-0 ('d4', 'Nf6', 'c4', 'e6')
+PGN 2002 1.1 Mohota,N Stepovaia Dianchenko,T 1/2-1/2 ('d4', 'd5', 'c4', 'c6')
+PGN 2002 1.1 Arakhamia,K Ciuksyte,D 0-1 ('e4', 'c5', 'Nf3', 'e6')
+PGN 2002 1.1 Xu Yuanyuan Pina,S 1-0 ('d4', 'c5', 'd5', 'e5')
+PGN 2002 1.1 Foisor,C Gu Xiaobing 1-0 ('c4', 'c5', 'g3', 'g6')
+PGN 2002 1.1 Baginskaite,C Prudnikova,S 1-0 ('d4', 'Nf6', 'c4', 'e6')
+PGN 2002 1.1 Zielinska,Mar Gaprindashvili,N 1/2-1/2 ('d4', 'd5', 'c4', 'e6')
+PGN 2002 1.1 Paehtz,E Radziewicz,I 1-0 ('e4', 'e6', 'd4', 'd5')
+PGN 2002 1.1 Kiseleva,N Wang Yu 1-0 ('d4', 'd5', 'c4', 'c6')
+PGN 2002 1.2 Stepovaia Dianchenko,T Mohota,N 1/2-1/2 ('e4', 'd5', 'exd5', 'Qxd5')
+PGN 2002 1.2 Ciuksyte,D Arakhamia,K 1/2-1/2 ('e4', 'd5', 'exd5', 'Qxd5')
+PGN 2002 1.2 Pina,S Xu Yuanyuan 1-0 ('e4', 'd5', 'exd5', 'Qxd5')
+PGN 2002 1.2 Gu Xiaobing Foisor,C 0-1 ('e4', 'c6', 'd4', 'g6')
+PGN 2002 1.2 Prudnikova,S Baginskaite,C 1-0 ('Nf3', 'd5', 'g3', 'c5')
+PGN 2002 1.2 Gaprindashvili,N Zielinska,Mar 1/2-1/2 ('d4', 'Nf6', 'c4', 'c5')
+PGN 2002 1.2 Radziewicz,I Paehtz,E 1-0 ('e4', 'c5', 'Nc3', 'd6')
+PGN 2002 1.2 Wang Yu Kiseleva,N 0-1 ('e4', 'e6', 'd4', 'd5')
+PGN 2002 1.3 Mohota,N Stepovaia Dianchenko,T 1/2-1/2 ('d4', 'd5', 'c4', 'c6')
+PGN 2002 1.3 Pina,S Xu Yuanyuan 0-1 ('e4', 'd5', 'exd5', 'Qxd5')
+PGN 2002 1.3 Baginskaite,C Prudnikova,S 1-0 ('d4', 'e6', 'c4', 'Nf6')
+PGN 2002 1.3 Zielinska,Mar Gaprindashvili,N 1/2-1/2 ('d4', 'd5', 'c4', 'e6')
+PGN 2002 1.3 Paehtz,E Radziewicz,I 1-0 ('e4', 'c5', 'Nf3', 'g6')
+PGN 2002 1.4 Mohota,N Stepovaia Dianchenko,T 0-1 ('Nf3', 'f5', 'd4', 'g6')
+PGN 2002 1.4 Xu Yuanyuan Pina,S 1-0 ('d4', 'c5', 'd5', 'e5')
+PGN 2002 1.4 Prudnikova,S Baginskaite,C 1-0 ('c4', 'e5', 'Nc3', 'Nf6')
+PGN 2002 1.4 Gaprindashvili,N Zielinska,Mar 0-1 ('d4', 'Nf6', 'c4', 'c5')
+PGN 2002 1.4 Radziewicz,I Paehtz,E 1/2-1/2 ('e4', 'g6', 'd4', 'Bg7')
+PGN 2002 1.2 Yermolinsky,A Milov,V 0-1 ('d4', 'Nf6', 'c4', 'g6')
+PGN 2002 1.2 Ivanov,AV Pigusov,E 1/2-1/2 ('e4', 'c5', 'Nf3', 'Nc6')
+PGN 2002 1.2 Polgar,Ju Al Modiahki,M 1-0 ('e4', 'c5', 'Nf3', 'e6')
+PGN 2002 3.4 Adams,Mi Zvjaginsev,V 1-0 ('e4', 'c5', 'Nf3', 'd6')
+2004 408 408 407 1 1
+REF 2004 2.5 Mamedyarov,S Lputian,S 1/2-1/2 ('d4', 'd5', 'c4', 'e6')
+PGN 2004 2.5 Mamedyarov,S Lputian,S 1/2-1/2 ('d4', 'Nf6', 'c4', 'e6')
+2005 56 56 56 0 0
+2006 16 16 15 0 0
+2007 56 56 56 0 0
+2008 11 11 11 0 0
+2010 12 12 12 0 0
+2012 16 16 15 1 1
+REF 2012 16 Anand,V Gelfand,B 1/2-1/2 ('e4', 'c5', 'Nf3', 'd6')
+PGN 2012 4 Anand, Viswanathan Gelfand, Boris 1/2-1/2 ('e4', 'c5', 'Nf3', 'd6')
+2013 10 10 10 0 0
+2014 11 11 11 0 0
+2016 16 16 16 0 0
+2018 15 15 15 0 0
+2021 11 11 11 0 0
